@@ -1,0 +1,28 @@
+@model UserCreatModel
+@{
+    Layout = "_AdminLayout";
+}
+<section >
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <div class="card card-body">
+                    <form method="post" novalidate>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label asp-for="AdSoyad" class="form-label"></label>
+                            <input asp-for="AdSoyad" class="form-control">
+                            <span asp-validation-for="AdSoyad" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" class="form-control">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <button asp-action="Creat" type="submit" class="btn btn-primary">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

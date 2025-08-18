@@ -1,0 +1,65 @@
+@using Microsoft.AspNetCore.Identity
+@model IEnumerable<AppUser>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card shadow">
+            <div class="card-header py-1 d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Kullanıcılar</h5>
+                <a asp-action="Creat" class="btn btn-sm btn-primary">
+                    <i class="fa-solid fa-plus"></i>
+                </a>
+            </div>
+            <div class="card-body">
+                <form method="get">
+                    <div class="input-group mb-2">
+                        <select name="role" class="form-select" asp-items="ViewBag.Roller">
+                            <option value="" selected>Tümü</option>
+                        </select>
+                        <button class="btn btn-secondary" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+
+
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped mb-0">
+                        <thead class="table-secondary">
+                            <tr>
+                                <th>Id</th>
+                                <th>Kullanıcı Adı</th>
+                                <th>Email</th>
+                                <th style="width: 90px;"></th>
+                            </tr>
+                        <tbody>
+                            @foreach (var i in Model)
+                            {
+                                <tr>
+                                    <td>@i.Id</td>
+                                    <td>@i.AdSoyad</td>
+                                    <td>@i.Email</td>
+                                    <td>
+                                        <a asp-controller="User" asp-action="Edit" asp-route-id="@i.Id"
+                                            class="btn btn-primary btn-sm">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                        <a asp-controller="User" asp-action="Delete" asp-route-id="@i.Id"
+                                            class="btn btn-danger btn-sm">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
