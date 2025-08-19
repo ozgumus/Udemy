@@ -12,9 +12,19 @@ public class Order
     public string AdresSatiri { get; set; } = null!;
     public string PostaKodu { get; set; } = null!;
     public string Telefon { get; set; } = null!;
-    public string SparisNotu { get; set; } = null!;
+    public string? SparisNotu { get; set; }
     public double Toplamfiyat { get; set; }
     public List<OrderItem> OrderItems { get; set; } = new();
+     public double AraToplam()
+    {
+        return OrderItems.Sum(i => i.Fiyat * i.Miktar);
+    }
+
+    public double Toplam()
+    {
+        return OrderItems.Sum(i => i.Fiyat * i.Miktar) * 1.20;
+    }
+
 }
 
 public class OrderItem

@@ -1,0 +1,78 @@
+@using dotnet_basic.Data
+@model List<Order>
+
+@section Bar {
+    <section class="bg-primary p-3">
+        <div class="container">
+            <nav>
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="/">Anasayfa</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a>Sparişler</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+}
+
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                @await Html.PartialAsync("~/Views/Shared/Partials/Site/_AcountSideBar.cshtml")
+            </div>
+            <div class="col-10">
+                <div class="card-header py-1">
+                    <h5 class="card-title mb-0">Sparişler</h5>
+                </div>
+                <div class="card-body">
+                    <div class="accordion" id="orders">
+                        @foreach (var i in Model)
+                        {
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#order_@i.Id">
+                                        Spariş No:#@i.Id
+                                    </button>
+                                </h2>
+                                <div id="order_@i.Id" class="accordion-collapse collapse p-3" data-bs-perent="#orders">
+                                    <table class="table table-bordered mb-0">
+                                        <tr>
+                                            <td colspan="2">
+                                                Sipariş Tarihi
+                                            </td>
+                                            <td colspan="3">
+                                                @i.SparisTarihi
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                Ad Soyad
+                                            </td>
+                                            <td colspan="3">
+                                                @i.AdSoyad
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                            <td colspan="2">
+                                                Teslimat Adresi
+                                            </td>
+                                            <td colspan="3">
+                                                @i.AdresSatiri /@i.Sehir/@i.PostaKodu/@i.Telefon 
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

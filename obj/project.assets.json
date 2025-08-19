@@ -3281,23 +3281,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ozgum\\.nuget\\packages\\": {},
+    "C:\\Users\\mehmet.ozgumus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\works\\dotnet-basic\\dotnet-basic.csproj",
+      "projectUniqueName": "C:\\workspace\\Udemy\\Udemy\\dotnet-basic.csproj",
       "projectName": "dotnet-basic",
-      "projectPath": "C:\\works\\dotnet-basic\\dotnet-basic.csproj",
-      "packagesPath": "C:\\Users\\ozgum\\.nuget\\packages\\",
-      "outputPath": "C:\\works\\dotnet-basic\\obj\\",
+      "projectPath": "C:\\workspace\\Udemy\\Udemy\\dotnet-basic.csproj",
+      "packagesPath": "C:\\Users\\mehmet.ozgumus\\.nuget\\packages\\",
+      "outputPath": "C:\\workspace\\Udemy\\Udemy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ozgum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mehmet.ozgumus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3324,7 +3324,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -3372,7 +3372,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

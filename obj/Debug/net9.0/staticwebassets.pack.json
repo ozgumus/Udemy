@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\e-commerce\\details.html",
+      "PackagePath": "staticwebassets\\e-commerce\\details.html"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\e-commerce\\index.html",
+      "PackagePath": "staticwebassets\\e-commerce\\index.html"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\e-commerce\\shopping-cart.html",
+      "PackagePath": "staticwebassets\\e-commerce\\shopping-cart.html"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\0ng01vr2.ale.jpg",
+      "PackagePath": "staticwebassets\\img\\0ng01vr2.ale.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\0peiy00l.uyl.jpg",
+      "PackagePath": "staticwebassets\\img\\0peiy00l.uyl.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\1.jpeg",
+      "PackagePath": "staticwebassets\\img\\1.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\1bepugfs.wfg.jpg",
+      "PackagePath": "staticwebassets\\img\\1bepugfs.wfg.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\1cjadtzo.pyr.jpg",
+      "PackagePath": "staticwebassets\\img\\1cjadtzo.pyr.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\2.jpeg",
+      "PackagePath": "staticwebassets\\img\\2.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\3.jpeg",
+      "PackagePath": "staticwebassets\\img\\3.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\4.jpeg",
+      "PackagePath": "staticwebassets\\img\\4.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\4invsbdd.han.jpg",
+      "PackagePath": "staticwebassets\\img\\4invsbdd.han.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\5.jpeg",
+      "PackagePath": "staticwebassets\\img\\5.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\6.jpeg",
+      "PackagePath": "staticwebassets\\img\\6.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\7.jpeg",
+      "PackagePath": "staticwebassets\\img\\7.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\8.jpeg",
+      "PackagePath": "staticwebassets\\img\\8.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\aald3bug.spw.jpg",
+      "PackagePath": "staticwebassets\\img\\aald3bug.spw.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\cozhfatd.ozo.jpg",
+      "PackagePath": "staticwebassets\\img\\cozhfatd.ozo.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\crqdxb0i.emu.jpg",
+      "PackagePath": "staticwebassets\\img\\crqdxb0i.emu.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\e2kdllyf.4vs.jpg",
+      "PackagePath": "staticwebassets\\img\\e2kdllyf.4vs.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\exwz44lq.31f.jpg",
+      "PackagePath": "staticwebassets\\img\\exwz44lq.31f.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\hr4pzj3w.rcv.jpg",
+      "PackagePath": "staticwebassets\\img\\hr4pzj3w.rcv.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\hr5tuv0w.0bq.jpg",
+      "PackagePath": "staticwebassets\\img\\hr5tuv0w.0bq.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\iu1lbn3h.2cm.jpg",
+      "PackagePath": "staticwebassets\\img\\iu1lbn3h.2cm.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\kiobxxyg.f4t.jpg",
+      "PackagePath": "staticwebassets\\img\\kiobxxyg.f4t.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\kmtksdf1.gmn.jpg",
+      "PackagePath": "staticwebassets\\img\\kmtksdf1.gmn.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\pan2lgmd.gcc.jpg",
+      "PackagePath": "staticwebassets\\img\\pan2lgmd.gcc.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\qdgsnux5.3fu.jpg",
+      "PackagePath": "staticwebassets\\img\\qdgsnux5.3fu.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\qwohbafv.2ir.jpg",
+      "PackagePath": "staticwebassets\\img\\qwohbafv.2ir.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\rjawnt5v.ynd.jpg",
+      "PackagePath": "staticwebassets\\img\\rjawnt5v.ynd.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\slider-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider-1.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\slider-2.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider-2.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\slider-3.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider-3.jpeg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\sxpue0jp.dar.jpg",
+      "PackagePath": "staticwebassets\\img\\sxpue0jp.dar.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\thz4wewg.2q2.jpg",
+      "PackagePath": "staticwebassets\\img\\thz4wewg.2q2.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\tmdbgujh.23m.jpg",
+      "PackagePath": "staticwebassets\\img\\tmdbgujh.23m.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\u20sbbke.zk0.jpg",
+      "PackagePath": "staticwebassets\\img\\u20sbbke.zk0.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\vilbmonr.hxf.jpg",
+      "PackagePath": "staticwebassets\\img\\vilbmonr.hxf.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\vuvw5gxq.o31.jpg",
+      "PackagePath": "staticwebassets\\img\\vuvw5gxq.o31.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\wc1ialzt.nan.jpg",
+      "PackagePath": "staticwebassets\\img\\wc1ialzt.nan.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\xehjotxy.x2r.jpg",
+      "PackagePath": "staticwebassets\\img\\xehjotxy.x2r.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\ze34fpev.dtp.jpg",
+      "PackagePath": "staticwebassets\\img\\ze34fpev.dtp.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\img\\ziuktcru.luc.jpg",
+      "PackagePath": "staticwebassets\\img\\ziuktcru.luc.jpg"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\js\\fslightbox.js",
+      "PackagePath": "staticwebassets\\js\\fslightbox.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\workspace\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.dotnet-basic.props",
+      "PackagePath": "build\\dotnet-basic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.dotnet-basic.props",
+      "PackagePath": "buildMultiTargeting\\dotnet-basic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.dotnet-basic.props",
+      "PackagePath": "buildTransitive\\dotnet-basic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.dotnet-basic.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.dotnet-basic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

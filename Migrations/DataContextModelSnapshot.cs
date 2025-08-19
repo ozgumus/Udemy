@@ -138,11 +138,10 @@ namespace dotnet_basic.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("SparisTarihi")
+                    b.Property<string>("SparisNotu")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("SparişNotu")
-                        .IsRequired()
+                    b.Property<DateTime>("SparisTarihi")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Telefon")

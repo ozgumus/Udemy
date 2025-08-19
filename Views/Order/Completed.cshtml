@@ -1,0 +1,28 @@
+@model string
+
+@section Bar {
+    <section class="bg-primary p-3">
+        <div class="container">
+            <nav>
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="/">Anasayfa</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a>Sparişiniz Tamamlandı</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+}
+
+<div class="car card-body my-4 text-center">
+    <h1 class="h3">Teşekkür Ederiz</h1>
+    <p>
+        #@Model numaralı sparişiniz kayıt edilmiştir.
+    </p>
+    <p>
+        <a href="" class="btn btn-primary">Sparişleri Görüntüle</a>
+    </p>
+</div>

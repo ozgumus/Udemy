@@ -3,7 +3,9 @@ using dotnet_basic.Data;
 using dotnet_basic.Models;
 using dotnet_basic.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace dotnet_basic.Controllers;
 
@@ -11,12 +13,30 @@ public class OrderController : Controller
 {
     private ICartService _cartService;
     private readonly DataContext _context;
-    public OrderController(ICartService cartService, DataContext context)
+    private UserManager<AppUser> _userManager;
+    public OrderController(ICartService cartService, DataContext context, UserManager<AppUser> userManager)
     {
         _cartService = cartService;
         _context = context;
+        _userManager = userManager;
     }
 
+    [Authorize(Roles = "Admin")]
+    public ActionResult Index()
+    {
+        return View(_context.Orders.ToList());
+    }
+
+    [Authorize(Roles = "Admin")]
+    public ActionResult Details(int id)
+    {
+        var order = _context.Orders
+             .Include(i => i.OrderItems)
+             .ThenInclude(i => i.Urun)
+             .FirstOrDefault(i => i.Id == id);
+
+        return View(order);
+    }
     [Authorize]
     public async Task<ActionResult> Checkout()
     {
@@ -26,7 +46,7 @@ public class OrderController : Controller
     }
 
     [HttpPost]
-     public async Task<ActionResult> Checkout(OrderCreatModel model)
+    public async Task<ActionResult> Checkout(OrderCreatModel model)
     {
         //Giriş yapan kullanıcı bilgilerini alıyoruz.
         var user = User.Identity?.Name!;
@@ -39,9 +59,6 @@ public class OrderController : Controller
         {
             ModelState.AddModelError("", "Sepetinizde ürün bulunmamaktadır.");
         }
-
-
-
         if (ModelState.IsValid)
         {
             //Formdan gönderilen verilen doğrulanmış bir şekilde gelimiş ise müşteri ve ürünlerini oluşturuyoruz.
@@ -76,13 +93,21 @@ public class OrderController : Controller
             //İşlem bittiği için yeni bir sayfaya yönlendiriyoruz ve ilgili spasrişin tamamlandığı mesajını vermek için ise OrderId bilgisini sayfaya gönderiyoruz. 
             return RedirectToAction("Completed", new { orderId = order.Id });
         }
-
-
-
         //Uygulamaya giriş yapan kişinin kart bilgisinin alıyoruz. Bu bilgiyi view üzerinde kullanacağız.
-        ViewBag.Cart = await _cartService.GetCart(User.Identity?.Name!);
-        return View();
+        ViewBag.Cart = cart;
+        return View(model);
     }
 
+    public ActionResult Completed(string orderId)
+    {
+        return View("Completed", orderId);
+    }
+
+    public async Task<ActionResult> OrderList()
+    {
+        var userName = User.Identity?.Name;
+        var orders = await _context.Orders.Include(i => i.OrderItems).ThenInclude(i => i.Urun).Where(i => i.UserName == userName).ToListAsync();
+        return View(orders);
+    }
 
 }
