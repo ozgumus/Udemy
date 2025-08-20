@@ -156,9 +156,9 @@ public class OrderController : Controller
         Buyer buyer = new Buyer();
         buyer.Id = User.Identity?.Name;
         buyer.Name = model.AdSoyad;
-        buyer.Surname = "";
+        buyer.Surname = "Doe";
         buyer.GsmNumber = model.Telefon;
-        buyer.Email = "";
+        buyer.Email = "ozgumusmmt@gmail.com";
         buyer.IdentityNumber = "74300864791";
         buyer.LastLoginDate = "2015-10-05 12:43:35";
         buyer.RegistrationDate = "2013-04-21 15:12:09";
