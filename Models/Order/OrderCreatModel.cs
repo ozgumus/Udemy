@@ -31,4 +31,29 @@ public class OrderCreatModel
 
 
     public string? SparisNotu { get; set; }
+
+
+     [Display(Name = "Kart Adı")]
+    [Required(ErrorMessage = "Kart Adı bilgisi boş bırakılamaz")]
+    public string CartName { get; set; } = null!;
+
+
+         [Display(Name = "Kart Numarası")]
+    [Required(ErrorMessage = "Kart Numarası bilgisi boş bırakılamaz")]
+    public string CartNumber { get; set; } = null!;
+
+
+           [Display(Name = "Kart Yılı")]
+    [Required(ErrorMessage = "Kart Yılı bilgisi boş bırakılamaz")]
+    public string CartExpirationYear { get; set; } = null!;
+
+
+              [Display(Name = "Kart Ayı")]
+    [Required(ErrorMessage = "Kart Ayı bilgisi boş bırakılamaz")]
+    public string CartExpirationMont { get; set; } = null!;
+
+
+              [Display(Name = "Kart Güvenlik Kodu")]
+    [Required(ErrorMessage = "Kart Güvenlik Kodu bilgisi boş bırakılamaz")]
+    public string CartCvc { get; set; } = null!;
 }
