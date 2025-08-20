@@ -9,6 +9,8 @@
 
   <ItemGroup>
   
+    <PackageReference Include="Iyzipay" Version="2.1.67" />
+  
     <PackageReference Include="L" Version="5.0.0" />
   
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.6" />

@@ -453,3 +453,5 @@ C:\workspace\Udemy\Udemy\obj\Debug\net9.0\staticwebassets.pack.json
 C:\workspace\Udemy\Udemy\obj\Debug\net9.0\dotnet-b.25B4CD6A.Up2Date
 C:\workspace\Udemy\Udemy\obj\Debug\net9.0\dotnet-basic.genruntimeconfig.cache
 C:\workspace\Udemy\Udemy\obj\Debug\net9.0\ref\dotnet-basic.dll
+C:\workspace\Udemy\Udemy\bin\Debug\net9.0\Iyzipay.dll
+C:\workspace\Udemy\Udemy\bin\Debug\net9.0\Newtonsoft.Json.dll

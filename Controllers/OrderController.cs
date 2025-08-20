@@ -2,10 +2,14 @@ using System.Threading.Tasks;
 using dotnet_basic.Data;
 using dotnet_basic.Models;
 using dotnet_basic.Services;
+using Iyzipay;
+using Iyzipay.Model;
+using Iyzipay.Request;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace dotnet_basic.Controllers;
 
@@ -14,11 +18,13 @@ public class OrderController : Controller
     private ICartService _cartService;
     private readonly DataContext _context;
     private UserManager<AppUser> _userManager;
-    public OrderController(ICartService cartService, DataContext context, UserManager<AppUser> userManager)
+    private readonly IConfiguration _configuration;
+    public OrderController(ICartService cartService, DataContext context, UserManager<AppUser> userManager, IConfiguration configuration)
     {
         _cartService = cartService;
         _context = context;
         _userManager = userManager;
+        _configuration = configuration;
     }
 
     [Authorize(Roles = "Admin")]
@@ -73,7 +79,7 @@ public class OrderController : Controller
                 SparisTarihi = DateTime.Now,
                 Toplamfiyat = cart.Toplam(),
                 UserName = user,
-                OrderItems = cart.CartItems.Select(i => new OrderItem
+                OrderItems = cart.CartItems.Select(i => new Data.OrderItem
                 {
                     UrunId = i.UrunId,
                     Fiyat = i.Urun.Fiyat,
@@ -81,17 +87,23 @@ public class OrderController : Controller
                 }).ToList()
             };
 
-            //Oluşturulan müşteri bilgisi ve ürünlerini veri tabanına orders üzerine ekliyoruz.
-            _context.Orders.Add(order);
+            var payment = await ProcessPayment();
 
-            //Veri tabanına ürünler eklendiği için ürünler için oluşturulan cart bilgisinin veri tabanında gereksiz yere kalmaması için siliniyor.
-            _context.Remove(cart);
+            if (payment.Status == "success") 
+            {
+                //Oluşturulan müşteri bilgisi ve ürünlerini veri tabanına orders üzerine ekliyoruz.
+                _context.Orders.Add(order);
 
-            //Veri tabanına kaydediyoruz.
-            await _context.SaveChangesAsync();
+                //Veri tabanına ürünler eklendiği için ürünler için oluşturulan cart bilgisinin veri tabanında gereksiz yere kalmaması için siliniyor.
+                _context.Remove(cart);
 
-            //İşlem bittiği için yeni bir sayfaya yönlendiriyoruz ve ilgili spasrişin tamamlandığı mesajını vermek için ise OrderId bilgisini sayfaya gönderiyoruz. 
-            return RedirectToAction("Completed", new { orderId = order.Id });
+                //Veri tabanına kaydediyoruz.
+                await _context.SaveChangesAsync();
+
+                //İşlem bittiği için yeni bir sayfaya yönlendiriyoruz ve ilgili spasrişin tamamlandığı mesajını vermek için ise OrderId bilgisini sayfaya gönderiyoruz. 
+                return RedirectToAction("Completed", new { orderId = order.Id });
+            }
+
         }
         //Uygulamaya giriş yapan kişinin kart bilgisinin alıyoruz. Bu bilgiyi view üzerinde kullanacağız.
         ViewBag.Cart = cart;
@@ -108,6 +120,97 @@ public class OrderController : Controller
         var userName = User.Identity?.Name;
         var orders = await _context.Orders.Include(i => i.OrderItems).ThenInclude(i => i.Urun).Where(i => i.UserName == userName).ToListAsync();
         return View(orders);
+    }
+
+    private async Task<Payment> ProcessPayment()
+    {
+        Options options = new Options();
+        options.ApiKey = _configuration["PaymentAPI:APIKey"];
+        options.SecretKey = _configuration["PaymentAPI:SecretKey"];
+        options.BaseUrl = "https://sandbox-api.iyzipay.com";
+
+        CreatePaymentRequest request = new CreatePaymentRequest();
+        request.Locale = Locale.TR.ToString();
+        request.ConversationId = "123456789";
+        request.Price = "1";
+        request.PaidPrice = "1.2";
+        request.Currency = Currency.TRY.ToString();
+        request.Installment = 1;
+        request.BasketId = "B67832";
+        request.PaymentChannel = PaymentChannel.WEB.ToString();
+        request.PaymentGroup = PaymentGroup.PRODUCT.ToString();
+
+        PaymentCard paymentCard = new PaymentCard();
+        paymentCard.CardHolderName = "John Doe";
+        paymentCard.CardNumber = "5528790000000008";
+        paymentCard.ExpireMonth = "12";
+        paymentCard.ExpireYear = "2030";
+        paymentCard.Cvc = "123";
+        paymentCard.RegisterCard = 0;
+        request.PaymentCard = paymentCard;
+
+        Buyer buyer = new Buyer();
+        buyer.Id = "BY789";
+        buyer.Name = "John";
+        buyer.Surname = "Doe";
+        buyer.GsmNumber = "+905350000000";
+        buyer.Email = "email@email.com";
+        buyer.IdentityNumber = "74300864791";
+        buyer.LastLoginDate = "2015-10-05 12:43:35";
+        buyer.RegistrationDate = "2013-04-21 15:12:09";
+        buyer.RegistrationAddress = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+        buyer.Ip = "85.34.78.112";
+        buyer.City = "Istanbul";
+        buyer.Country = "Turkey";
+        buyer.ZipCode = "34732";
+        request.Buyer = buyer;
+
+        Address shippingAddress = new Address();
+        shippingAddress.ContactName = "Jane Doe";
+        shippingAddress.City = "Istanbul";
+        shippingAddress.Country = "Turkey";
+        shippingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+        shippingAddress.ZipCode = "34742";
+        request.ShippingAddress = shippingAddress;
+
+        Address billingAddress = new Address();
+        billingAddress.ContactName = "Jane Doe";
+        billingAddress.City = "Istanbul";
+        billingAddress.Country = "Turkey";
+        billingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+        billingAddress.ZipCode = "34742";
+        request.BillingAddress = billingAddress;
+
+        List<BasketItem> basketItems = new List<BasketItem>();
+        BasketItem firstBasketItem = new BasketItem();
+        firstBasketItem.Id = "BI101";
+        firstBasketItem.Name = "Binocular";
+        firstBasketItem.Category1 = "Collectibles";
+        firstBasketItem.Category2 = "Accessories";
+        firstBasketItem.ItemType = BasketItemType.PHYSICAL.ToString();
+        firstBasketItem.Price = "0.3";
+        basketItems.Add(firstBasketItem);
+
+        BasketItem secondBasketItem = new BasketItem();
+        secondBasketItem.Id = "BI102";
+        secondBasketItem.Name = "Game code";
+        secondBasketItem.Category1 = "Game";
+        secondBasketItem.Category2 = "Online Game Items";
+        secondBasketItem.ItemType = BasketItemType.VIRTUAL.ToString();
+        secondBasketItem.Price = "0.5";
+        basketItems.Add(secondBasketItem);
+
+        BasketItem thirdBasketItem = new BasketItem();
+        thirdBasketItem.Id = "BI103";
+        thirdBasketItem.Name = "Usb";
+        thirdBasketItem.Category1 = "Electronics";
+        thirdBasketItem.Category2 = "Usb / Cable";
+        thirdBasketItem.ItemType = BasketItemType.PHYSICAL.ToString();
+        thirdBasketItem.Price = "0.2";
+        basketItems.Add(thirdBasketItem);
+        request.BasketItems = basketItems;
+
+        return await Payment.Create(request, options);
     }
 
 }

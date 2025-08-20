@@ -28,7 +28,12 @@
                 <div class="card-header py-1">
                     <h5 class="card-title mb-0">Sparişler</h5>
                 </div>
+
+                
                 <div class="card-body">
+                    @if(Model.Count==0){
+                    <div class="alert alert-warning">Sparişiniz Bulunmamaktadır.</div>        
+                    }
                     <div class="accordion" id="orders">
                         @foreach (var i in Model)
                         {
@@ -57,13 +62,43 @@
                                                 @i.AdSoyad
                                             </td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td colspan="2">
                                                 Teslimat Adresi
                                             </td>
                                             <td colspan="3">
-                                                @i.AdresSatiri /@i.Sehir/@i.PostaKodu/@i.Telefon 
+                                                @i.AdresSatiri /@i.Sehir/@i.PostaKodu/@i.Telefon
                                             </td>
+                                        </tr>
+
+                                        @foreach (var item in i.OrderItems)
+                                        {
+                                            
+                                            <tr>
+                                                <td style="with:80px;">
+                                                    <img src="~/img/@item.Urun.Resim" class="img-fluid" alt="">
+                                                </td>
+                                                <td>@item.Urun.UrunAdi</td>
+                                                <td>@item.Fiyat TL</td>
+                                                <td>@item.Miktar <span>adet</span></td>
+                                                <td>@(item.Fiyat* item.Miktar) TL</td>
+
+                                            </tr>
+                                        }
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td>Ara Toplam</td>
+                                            <td>@i.AraToplam() TL</td>
+                                        </tr>
+                                         <tr>
+                                            <td colspan="3"></td>
+                                            <td>Vergi</td>
+                                            <td>@(i.AraToplam()*0.20) TL</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td>Toplam</td>
+                                            <td>@i.Toplam() TL</td>
                                         </tr>
                                     </table>
 
