@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form asp-controller="Urun" asp-action="CheckButton" class="form" method="post">
+            <div class="card card-shadow card-body">
+                <div>
+                    <h1>Check Button Example</h1>
+                    @* <p>This is an example of a check button.</p> *@
+                    <div class="card-shadow mb-3">
+                        <input type="checkbox" id="checkButton" class="form-check-input" name="Secenek" value="True">
+                        <label for="checkButton" class="form-check-label">Seçenek 1</label>
+                    </div>
+
+                </div>
+                <button class="btn btn-primary mt-3" type="submit">
+                    <i class=""></i> Kaydet
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+@* <div class="card-shadow mb-3 border">
+                        <input type="radio" id="radioButton" name="Cinsiyet" class="form-check-input">
+                        <label for="radioButton" class="form-check-label">Kız</label>
+                        <input type="radio" id="radioButton2" name="Cinsiyet" class="form-check-input">
+                        <label for="radioButton2" class="form-check-label">Erkek</label>
+                    </div>
+                    <div class="card-shadow mb-3">
+                        <input type="checkbox" id="checkButton2" class="form-check-input" name="Deneme">Deneme
+                    </div>
+                    <div class="card-shadow"><select name="" id="">
+                            <option value="Mehmet">Mehmet</option>
+                            <option value="Talha">Talha</option>
+                            <option value="Muhammed">Muhammed</option>
+                            <option value="Evren">Evren</option>
+                        </select>
+                    </div> *@
+
+</html>
