@@ -215,39 +215,25 @@ public class UrunController : Controller
 
     public ActionResult CheckButton()
     {
-        // Bu metot, sadece butonun çalışıp çalışmadığını kontrol etmek için kullanılabilir.
-        // Örneğin, bir butona tıklandığında bu metot çağrılır ve herhangi bir işlem yapmadan geri döner.
-        // Bu, butonun çalıştığını doğrulamak için kullanılabilir.  
-        // Bu metot, butonun çalışıp çalışmadığını kontrol etmek için kullanılabilir.
-
-
         return View();
     }
 
     [HttpPost]
-    public ActionResult CheckButton(CheckButtonmModel checkButton)
+    public ActionResult CheckButton(string Cinsiyet)
     {
-        // Bu metot, CheckButton modelini alır ve işleme devam eder.
-        // Örneğin, seçilen seçenekleri kaydedebilir veya başka bir işlem yapabilirsiniz.
-        // Burada sadece gelen veriyi kontrol ediyoruz.
-
-        if (checkButton != null)
+       
+        if (Cinsiyet != null)
         {
-            // İşlem yapılabilir, örneğin veritabanına kaydedilebilir.
-            // Ancak burada sadece örnek amaçlı olarak gelen veriyi döndürüyoruz.
-            return RedirectToAction("CheckButtonResult", checkButton);
+          
+            return RedirectToAction("CheckButtonResult", "Urun", new{ secim=Cinsiyet});
         }
-
-        return View();  
+        return View();
     }
 
-    public ActionResult CheckButtonResult(CheckButtonmModel checkButton)
+    public ActionResult CheckButtonResult(string secim)
     {
-        // Bu metot, CheckButton modelini alır ve sonucu gösterir.
-        // Örneğin, seçilen seçenekleri görüntüleyebilirsiniz.
-        // Burada sadece gelen veriyi gösteriyoruz.
+        return View("CheckButtonResult",secim);
 
-        return View(checkButton);
     }
 
 }

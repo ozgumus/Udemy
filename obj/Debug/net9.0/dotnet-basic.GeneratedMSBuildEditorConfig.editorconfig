@@ -17,253 +17,253 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotnet_basic
 build_property.RootNamespace = dotnet_basic
-build_property.ProjectDir = C:\works\Udemy\
+build_property.ProjectDir = C:\workspace\Udemy\Udemy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\works\Udemy
+build_property.MSBuildProjectDirectory = C:\workspace\Udemy\Udemy
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/works/Udemy/Views/Account/AccessDenied.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Account/ChangePassword.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Account/Creat.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/Creat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Account/EditUser.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Account/ForgotPassword.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Account/Login.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Account/ResetPassword.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Admin/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Cart/AddToCart.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Cart/AddToCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxBZGRUb0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Cart/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Home/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Home/Privacy.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Kategori/Creat.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Kategori/Creat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcQ3JlYXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Kategori/Delete.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Kategori/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Kategori/Edit.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Kategori/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Kategori/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Kategori/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Order/Checkout.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Order/Completed.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Order/Completed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Order/Details.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Order/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Order/OrderList.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Order/OrderList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Role/Creat.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Role/Creat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Role/Delete.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Role/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Role/Edit.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Role/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Role/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Components/Navbar/Default.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Components/Navbar/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Components/Slider/Default.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Components/Slider/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Error.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Admin/_AdminCards.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Admin/_AdminCards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9BZG1pbkNhcmRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Admin/_AdminEditMessage.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Admin/_AdminEditMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9BZG1pbkVkaXRNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Admin/_Navbar.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Admin/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Admin/_NewOrders.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Admin/_NewOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9OZXdPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Site/_AcountSideBar.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Site/_AcountSideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX0Fjb3VudFNpZGVCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Site/_AdminEditMessage.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Site/_AdminEditMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX0FkbWluRWRpdE1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Site/_Footer.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Site/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX0Zvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Site/_Menu.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Site/_Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX01lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Site/_Topbar.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Site/_Topbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX1RvcGJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/Partials/Site/_UrunCard.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/Partials/Site/_UrunCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX1VydW5DYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/_AdminLayout.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/_SiteLayout.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/_SiteLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaXRlTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Slider/Creat.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Slider/Creat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXENyZWF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Slider/Delete.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Slider/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Slider/Edit.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Slider/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Slider/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Slider/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urunler/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urunler/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/CheckButton.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/CheckButton.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxDaGVja0J1dHRvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/CheckButtonResult.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/CheckButtonResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxDaGVja0J1dHRvblJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/Creat.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/Creat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxDcmVhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/Delete.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/Details.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/Edit.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/Urun/List.cshtml]
+[C:/workspace/Udemy/Udemy/Views/Urun/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/User/Creat.cshtml]
+[C:/workspace/Udemy/Udemy/Views/User/Creat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/User/Delete.cshtml]
+[C:/workspace/Udemy/Udemy/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/User/Edit.cshtml]
+[C:/workspace/Udemy/Udemy/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/User/Index.cshtml]
+[C:/workspace/Udemy/Udemy/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/_ViewImports.cshtml]
+[C:/workspace/Udemy/Udemy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/Udemy/Views/_ViewStart.cshtml]
+[C:/workspace/Udemy/Udemy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
