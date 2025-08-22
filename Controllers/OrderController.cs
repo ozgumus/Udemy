@@ -155,7 +155,7 @@ public class OrderController : Controller
 
         Buyer buyer = new Buyer();
         buyer.Id = User.Identity?.Name;
-        buyer.Name = model.AdSoyad;
+        buyer.Name = "model.AdSoyad";
         buyer.Surname = "Doe";
         buyer.GsmNumber = model.Telefon;
         buyer.Email = "ozgumusmmt@gmail.com";
